@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Fathelrahman - Biodata</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 0 0 10px 10px;
+        }
+        
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .biodata-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .biodata-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .biodata-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .biodata-card h2 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light-color);
+        }
+        
+        .info-item {
+            margin-bottom: 12px;
+        }
+        
+        .info-item strong {
+            display: inline-block;
+            width: 150px;
+            color: var(--dark-color);
+        }
+        
+        .social-links a {
+            color: var(--primary-color);
+            margin-right: 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+        
+        ul.skills-list, ul.hobbies-list {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+        
+        ul.skills-list li, ul.hobbies-list li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        ul.skills-list li::before, ul.hobbies-list li::before {
+            content: "•";
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        
+        ol.wishlist {
+            padding-left: 25px;
+        }
+        
+        ol.wishlist li {
+            padding: 5px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--dark-color);
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        @media (max-width: 768px) {
+            .profile-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .info-item strong {
+                display: block;
+                width: auto;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="4e732ced3463d06de0ca9a15b6153677.png" alt="Ali Fathelrahman"
+        <div class="container">
+            <div class="profile-header">
+                <img src="-5773998460893248704_121 (3).jpg" alt="Ali Fathelrahman" class="profile-pic">
+                <div>
+                    <h1>Ali Fathelrahman</h1>
+                    <p class="subtitle">Bachelor of Information Technology (IT) Student</p>
+                    <p class="subtitle">Universiti Tun Hussein Onn Malaysia</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="biodata-grid">
+            <div class="biodata-card">
+                <h2>Basic Information</h2>
+                <div class="info-item">
+                    <strong>Date of Birth:</strong> May 5, 2003
+                </div>
+                <div class="info-item">
+                    <strong>Religion:</strong> Muslim
+                </div>
+                <div class="info-item">
+                    <strong>Race:</strong> African
+                </div>
+            </div>
+            
+            <div class="biodata-card">
+                <h2>Address</h2>
+                <div class="info-item">
+                    <strong>Street:</strong> Jalan University 22
+                </div>
+                <div class="info-item">
+                    <strong>Town:</strong> Parit Raja
+                </div>
+                <div class="info-item">
+                    <strong>State:</strong> Johor
+                </div>
+            </div>
+            
+            <div class="biodata-card">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <strong>Mobile Phone:</strong> +601161819546
+                </div>
+                <div class="info-item">
+                    <strong>Social Media:</strong>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <strong>Website:</strong> 3LIFT7
+                </div>
+            </div>
+            
+            <div class="biodata-card">
+                <h2>Education & Skills</h2>
+                <div class="info-item">
+                    <strong>Course:</strong> Bachelor of Information Technology (IT)
+                </div>
+                <div class="info-item">
+                    <strong>Institution:</strong> Universiti Tun Hussein Onn Malaysia
+                </div>
+                <div class="info-item">
+                    <strong>Programming Skills:</strong>
+                    <ul class="skills-list">
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="biodata-card">
+                <h2>Hobbies</h2>
+                <ul class="hobbies-list">
+                    <li>Programming</li>
+                    <li>Reading</li>
+                    <li>Playing video games</li>
+                </ul>
+            </div>
+            
+            <div class="biodata-card">
+                <h2>2025 Wishlist</h2>
+                <ol class="wishlist">
+                    <li>Learn React framework</li>
+                    <li>Travel to Japan</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ali Fathelrahman. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
